@@ -17,7 +17,7 @@ jobs:
         with:
           host: 113.219.237.121
           username: dynamicx
-          password: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
             cd /https://github.com/gdut-dynamic-x/docs
