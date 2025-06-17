@@ -15,8 +15,8 @@ jobs:
       - name: Connect and deployhu
         uses: appleboy/ssh-action@v0.1.4
         with:
-          host: 192.168.1.110
-          username: root
+          host: 113.219.237.121
+          username: dynamicx
           password: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
