@@ -20,5 +20,5 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: 61036
           script: |
-            cd /home/dynamicx/test/photo
+            cd /home/dynamicx/test
             git pull
