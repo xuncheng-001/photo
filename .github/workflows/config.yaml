@@ -17,6 +17,7 @@ jobs:
         with:
           host: 113.219.237.121
           username: dynamicx
+          key: ${{ secrets.SSH_KEY }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: 61036
           script: |
